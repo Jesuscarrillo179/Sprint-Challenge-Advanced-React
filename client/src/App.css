@@ -1,33 +1,71 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
+  width: 100%;
+  margin-top: 0px;
+  border-bottom:1px solid lightgrey ;
+  background-color: #0b6adb;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.header{
+  font-size: 40px;
+  padding-left: 50px;
+}
+span{
+  font-weight: bold;
+}
+.player-name{
+  font-size: 20px;
+}
+.cardlist{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.dark-mode{
+  background-color: #1a1a1a;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.dark-mode .card{
+  border:8px solid #3c3c3c;
+  background-color: #666;
+}
+.dark-mode .nav{
+  background-color: #3c3c3c;
+  border-bottom:1px solid #3c3c3c;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dmbutton {
+  background-color: white;
+  border-radius: 50px;
+  border: 4px solid lightgrey;
+  height: 35px;
+  position: relative;
+  width: 80px;
+  margin-right: 100px;
+}
+
+.toggle {
+  background: #76b2f8;
+  border-radius: 50px;
+  height: 35px;
+  left: 0;
+  position: absolute;
+  transition: 0.3s;
+  width: 35px;
+}
+
+.toggled {
+  left: 45px;
+}
+
+.dark-mode .toggle{
+  background-color: #3c3c3c;
+}
+.dark-mode .dmbutton{
+  background-color: grey;
+  border: 4px solid black;
 }
