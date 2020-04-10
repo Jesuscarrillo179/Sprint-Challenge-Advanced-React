@@ -9,7 +9,7 @@
 }
 .header{
   font-size: 40px;
-  padding-left: 20px;
+  padding-left: 50px;
 }
 span{
   font-weight: bold;
@@ -23,11 +23,6 @@ span{
   text-align: center;
   justify-content: space-evenly;
 }
-
-
-
-
-
 
 .dark-mode{
   background-color: #1a1a1a;
@@ -50,7 +45,7 @@ span{
   height: 35px;
   position: relative;
   width: 80px;
-  margin-right: 200px;
+  margin-right: 100px;
 }
 
 .toggle {

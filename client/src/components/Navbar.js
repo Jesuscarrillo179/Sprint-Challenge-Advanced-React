@@ -9,7 +9,7 @@ const Navbar = () => {
   };
   return (
     <nav className="nav">
-      <h1 className="header">101 Players</h1>
+      <h1 className="header">Players List</h1>
       <div className="dmbutton">
         <div
           onClick={toggleMode}
